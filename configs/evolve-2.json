@@ -1,0 +1,19 @@
+{
+  "mode": "evolve",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "train_count": 3,
+  "selection_count": 2,
+  "max_steps": 6,
+  "max_context": 8192,
+  "max_new_tokens": 512,
+  "generations": 2,
+  "collect_blame": true,
+  "limits": {
+    "max_calls": 160,
+    "max_total_tokens": 160000,
+    "max_minutes": 25,
+    "request_timeout_seconds": 150
+  },
+  "evidence_scope": "authorreference shortprompt evolution; nochangedreward ornewmethod; noheld-outtest; no weighttraining",
+  "approval_status": "draft_not_approved"
+}

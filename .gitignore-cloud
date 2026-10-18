@@ -1,0 +1,15 @@
+# Extra local Git exclusions; use with core.excludesFile
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*proxyclientconfig*
+models/
+outputs/
+.venv/
+__pycache__/
+*.pyc
+*.zip
+*.bundle
